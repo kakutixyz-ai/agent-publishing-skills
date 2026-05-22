@@ -7,6 +7,10 @@ description: Adapt a project update into short-form social posts or threads.
 
 Use this adapter for X, Mastodon-like communities, build-in-public logs, and short update surfaces.
 
+## Data Source Constraint
+
+**No internet search.** All content must be generated from local sources only: the project brief, knowledge base, schemas, templates, and user-provided materials. Do not fetch or search external URLs.
+
 ## Inputs
 
 - Project brief or base draft.

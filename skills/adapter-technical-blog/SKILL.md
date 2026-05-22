@@ -7,6 +7,10 @@ description: Adapt a base draft for technical blogging platforms that value tuto
 
 Use this adapter for platforms such as DEV Community, Hashnode, Medium, Zenn, Qiita, CSDN, 掘金, freeCodeCamp, CSS-Tricks, and similar article-first developer communities when no dedicated adapter is required.
 
+## Data Source Constraint
+
+**No internet search.** All content must be generated from local sources only: the project brief, knowledge base, schemas, templates, and user-provided materials. Do not fetch or search external URLs.
+
 ## Inputs
 
 - A base draft matching `schemas/platform-draft.schema.json`.

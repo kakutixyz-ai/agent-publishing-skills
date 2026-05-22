@@ -7,6 +7,10 @@ description: Adapt a project draft for launch and product discovery platforms.
 
 Use this adapter for Product Hunt, Beta-style launch communities, startup directories, maker communities, and product discovery platforms.
 
+## Data Source Constraint
+
+**No internet search.** All content must be generated from local sources only: the project brief, knowledge base, schemas, templates, and user-provided materials. Do not fetch or search external URLs.
+
 ## Inputs
 
 - Project brief or base draft.

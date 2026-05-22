@@ -7,6 +7,10 @@ description: Adapt a draft for portfolio, design, demo, and visual showcase plat
 
 Use this adapter for Behance, Dribbble, CodePen, Observable, Replit, Glitch, Arena, Awwwards, and other visual or interactive showcase platforms.
 
+## Data Source Constraint
+
+**No internet search.** All content must be generated from local sources only: the project brief, knowledge base, schemas, templates, and user-provided materials. Do not fetch or search external URLs.
+
 ## Inputs
 
 - Base draft.

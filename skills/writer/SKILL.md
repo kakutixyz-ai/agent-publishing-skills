@@ -7,6 +7,10 @@ description: Convert a project brief into a reusable base draft before platform 
 
 Use this skill after `planner` has produced a publishing plan and the user has confirmed the target direction.
 
+## Data Source Constraint
+
+**No internet search.** All content must be generated from local sources only: the project brief, knowledge base, schemas, templates, and user-provided materials. Do not fetch or search external URLs.
+
 ## Inputs
 
 - Project brief matching `schemas/project-brief.schema.json`.

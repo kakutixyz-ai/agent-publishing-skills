@@ -7,6 +7,10 @@ description: Adapt a base draft for discussion-first communities and forums.
 
 Use this adapter for platforms such as Hacker News, Reddit, Lobsters, V2EX, Stack Overflow discussion surfaces, GitHub Discussions, Indie Hackers, and similar communities.
 
+## Data Source Constraint
+
+**No internet search.** All content must be generated from local sources only: the project brief, knowledge base, schemas, templates, and user-provided materials. Do not fetch or search external URLs.
+
 ## Inputs
 
 - A base draft matching `schemas/platform-draft.schema.json`.
