@@ -137,6 +137,45 @@ function resolveDestination(options) {
 }
 
 function copyEntry(source, target, options) {
+  if (options.dryRun) {
+    dryRunCopy(source, target, options);
+    return;
+  }
+
+  mergeCopy(source, target, options);
+}
+
+function dryRunCopy(source, target, options) {
+  const stats = fs.statSync(source);
+
+  if (stats.isDirectory()) {
+    for (const entry of fs.readdirSync(source)) {
+      dryRunCopy(path.join(source, entry), path.join(target, entry), options);
+    }
+    return;
+  }
+
+  const exists = fs.existsSync(target);
+  if (exists && !options.force) {
+    console.log(`skip ${relative(target)} (exists; use --force to overwrite)`);
+    return;
+  }
+
+  console.log(`${exists ? "replace" : "copy"} ${relative(source)} -> ${relative(target)}`);
+}
+
+function mergeCopy(source, target, options) {
+  const stats = fs.statSync(source);
+
+  if (stats.isDirectory()) {
+    fs.mkdirSync(target, { recursive: true });
+
+    for (const entry of fs.readdirSync(source)) {
+      mergeCopy(path.join(source, entry), path.join(target, entry), options);
+    }
+    return;
+  }
+
   const exists = fs.existsSync(target);
 
   if (exists && !options.force) {
@@ -144,18 +183,13 @@ function copyEntry(source, target, options) {
     return;
   }
 
-  if (options.dryRun) {
-    console.log(`${exists ? "replace" : "copy"} ${relative(source)} -> ${relative(target)}`);
-    return;
-  }
-
   fs.mkdirSync(path.dirname(target), { recursive: true });
 
   if (exists) {
-    fs.rmSync(target, { recursive: true, force: true });
+    fs.rmSync(target, { force: true });
   }
 
-  fs.cpSync(source, target, { recursive: true });
+  fs.copyFileSync(source, target);
   console.log(`${exists ? "replaced" : "copied"} ${relative(target)}`);
 }
 
