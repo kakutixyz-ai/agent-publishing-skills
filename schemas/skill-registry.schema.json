@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Skill Registry",
+  "type": "object",
+  "required": ["name", "version", "skills"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "name": {"type": "string"},
+    "version": {"type": "string"},
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "path", "input_schema", "output_schema"],
+        "properties": {
+          "name": {"type": "string"},
+          "path": {"type": "string"},
+          "input_schema": {"type": "string"},
+          "output_schema": {"type": "string"},
+          "knowledge": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "platform_knowledge": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "path", "recommended_adapter", "primary_language", "categories", "target_audience"],
+        "properties": {
+          "slug": {"type": "string"},
+          "path": {"type": "string"},
+          "recommended_adapter": {"type": "string"},
+          "primary_language": {
+            "type": "string",
+            "enum": ["en", "zh", "ja", "ko", "pt", "es", "fr", "de", "ar"]
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["technical-blog", "community-discussion", "showcase", "launch", "social-shortform"]
+            }
+          },
+          "target_audience": {
+            "type": "string",
+            "enum": ["developers", "designers", "startups", "general"]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Example State Library",
+  "summary": "A small state management library for React components with deterministic update tracing.",
+  "audience": ["React developers", "frontend library authors"],
+  "status": "launched",
+  "project_type": "developer library",
+  "technical_stack": ["TypeScript", "React"],
+  "differentiators": ["Traceable state updates", "No provider required"],
+  "evidence": {
+    "benchmarks": ["Bundle size is 1.8 KB minified and gzipped"]
+  },
+  "links": {
+    "repository": "https://github.com/example/example-state",
+    "docs": "https://example.com/docs"
+  }
+}

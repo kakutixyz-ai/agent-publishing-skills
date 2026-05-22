@@ -1,0 +1,18 @@
+{
+  "name": "Example CLI",
+  "summary": "A command-line tool that finds unused environment variables across a repository.",
+  "audience": ["backend developers", "DevOps engineers", "open-source maintainers"],
+  "status": "launched",
+  "project_type": "developer tool",
+  "technical_stack": ["Go", "GitHub Actions"],
+  "differentiators": ["Works across multiple dotenv formats", "Can run in CI"],
+  "evidence": {
+    "benchmarks": ["Scans a 10k-file repository in under 2 seconds on a laptop"],
+    "demo_notes": ["CLI output shows unused keys and file locations"]
+  },
+  "links": {
+    "repository": "https://github.com/example/example-cli",
+    "docs": "https://example.com/docs"
+  },
+  "constraints": ["Do not claim enterprise adoption"]
+}

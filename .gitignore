@@ -1,0 +1,42 @@
+# Ignore everything by default. This repository intentionally tracks only the
+# normalized agent publishing library, not generated audits or source dumps.
+/*
+
+# macOS and local generated files
+.DS_Store
+__pycache__/
+
+# Root project files
+!.gitignore
+!README.md
+!LICENSE
+!LICENSE.*
+!package.json
+!skill-registry.json
+!gemini-extension.json
+!bin/
+!bin/**
+
+# Library documentation
+!docs/
+!docs/**
+
+# Normalized reusable knowledge
+!knowledge/
+!knowledge/**
+
+# Runtime agent skills
+!skills/
+!skills/**
+
+# Workflow and draft assets
+!workflows/
+!workflows/**
+!templates/
+!templates/**
+!schemas/
+!schemas/**
+!examples/
+!examples/**
+!integrations/
+!integrations/**

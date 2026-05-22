@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project Brief",
+  "type": "object",
+  "required": ["name", "summary", "audience", "status", "links"],
+  "properties": {
+    "name": {"type": "string"},
+    "summary": {"type": "string"},
+    "audience": {"type": "array", "items": {"type": "string"}},
+    "status": {
+      "type": "string",
+      "enum": ["idea", "prototype", "beta", "launched", "mature"]
+    },
+    "project_type": {"type": "string"},
+    "technical_stack": {"type": "array", "items": {"type": "string"}},
+    "differentiators": {"type": "array", "items": {"type": "string"}},
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "benchmarks": {"type": "array", "items": {"type": "string"}},
+        "screenshots": {"type": "array", "items": {"type": "string"}},
+        "demo_notes": {"type": "array", "items": {"type": "string"}},
+        "user_feedback": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "website": {"type": "string"},
+        "repository": {"type": "string"},
+        "demo": {"type": "string"},
+        "docs": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "constraints": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

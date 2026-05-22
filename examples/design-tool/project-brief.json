@@ -1,0 +1,15 @@
+{
+  "name": "Example Palette",
+  "summary": "A design tool that creates accessible color palettes from product screenshots.",
+  "audience": ["product designers", "frontend developers"],
+  "status": "launched",
+  "project_type": "design tool",
+  "technical_stack": ["Canvas", "TypeScript"],
+  "differentiators": ["Extracts existing brand colors", "Checks contrast automatically"],
+  "evidence": {
+    "screenshots": ["palette-editor.png"]
+  },
+  "links": {
+    "website": "https://example.com"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@kakuti/agent-publishing-skills",
+  "version": "0.1.0",
+  "description": "Publishing planning, drafting, adaptation, and review skills for developer communities and launch platforms.",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakutixyz-ai/agent-publishing-skills.git"
+  },
+  "bin": {
+    "agent-publishing-skills": "./bin/agent-publishing-skills.js"
+  },
+  "files": [
+    "bin/",
+    "docs/",
+    "integrations/",
+    "knowledge/",
+    "schemas/",
+    "skills/",
+    "templates/",
+    "workflows/",
+    "skill-registry.json",
+    "gemini-extension.json",
+    "README.md"
+  ],
+  "keywords": [
+    "agent-skills",
+    "ai-agents",
+    "publishing",
+    "claude",
+    "gemini",
+    "codex",
+    "opencode"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "jest",
+    "verify-drafts": "node bin/verify-drafts.js"
+  },
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "jest": "^29.5.0"
+  }
+}

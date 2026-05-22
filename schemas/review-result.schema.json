@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Review Result",
+  "type": "object",
+  "required": ["platform", "decision", "issues", "required_changes"],
+  "properties": {
+    "platform": {"type": "string"},
+    "decision": {
+      "type": "string",
+      "enum": ["approve", "revise", "do_not_publish"]
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["severity", "message"],
+        "properties": {
+          "severity": {"type": "string", "enum": ["low", "medium", "high"]},
+          "message": {"type": "string"},
+          "location": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "required_changes": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,1022 @@
+{
+  "$schema": "./schemas/skill-registry.schema.json",
+  "name": "agent-publishing-skills",
+  "version": "0.2.0",
+  "skills": [
+    {
+      "name": "planner",
+      "path": "skills/planner/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/publishing-plan.schema.json",
+      "knowledge": [
+        "knowledge/index.json",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer",
+      "path": "skills/writer/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "reviewer",
+      "path": "skills/reviewer/SKILL.md",
+      "input_schema": "schemas/platform-draft.schema.json",
+      "output_schema": "schemas/review-result.schema.json",
+      "knowledge": [
+        "knowledge/platforms/<target-platform>.md",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "adapter-technical-blog",
+      "path": "skills/adapter-technical-blog/SKILL.md",
+      "input_schema": "schemas/platform-draft.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/<target-platform>.md",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "adapter-community-discussion",
+      "path": "skills/adapter-community-discussion/SKILL.md",
+      "input_schema": "schemas/platform-draft.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/<target-platform>.md",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "adapter-launch",
+      "path": "skills/adapter-launch/SKILL.md",
+      "input_schema": "schemas/platform-draft.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/<target-platform>.md",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "adapter-showcase",
+      "path": "skills/adapter-showcase/SKILL.md",
+      "input_schema": "schemas/platform-draft.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/<target-platform>.md",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "adapter-social-shortform",
+      "path": "skills/adapter-social-shortform/SKILL.md",
+      "input_schema": "schemas/platform-draft.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/<target-platform>.md",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    }
+  ],
+  "platform_knowledge": [
+    {
+      "slug": "a-list-apart",
+      "path": "knowledge/platforms/a-list-apart.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "alura",
+      "path": "knowledge/platforms/alura.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "pt",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "andela",
+      "path": "knowledge/platforms/andela.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "arab-hardware",
+      "path": "knowledge/platforms/arab-hardware.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "ar",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "arena",
+      "path": "knowledge/platforms/arena.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "designers"
+    },
+    {
+      "slug": "atlassian-community",
+      "path": "knowledge/platforms/atlassian-community.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "awesome-lists",
+      "path": "knowledge/platforms/awesome-lists.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "awwwards",
+      "path": "knowledge/platforms/awwwards.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "designers"
+    },
+    {
+      "slug": "behance",
+      "path": "knowledge/platforms/behance.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "designers"
+    },
+    {
+      "slug": "brunch",
+      "path": "knowledge/platforms/brunch.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "ko",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "buildhop",
+      "path": "knowledge/platforms/buildhop.md",
+      "recommended_adapter": "adapter-launch",
+      "primary_language": "en",
+      "categories": [
+        "launch"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "canva-developers",
+      "path": "knowledge/platforms/canva-developers.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "designers"
+    },
+    {
+      "slug": "chaos-computer-club",
+      "path": "knowledge/platforms/chaos-computer-club.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "de",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "codepen",
+      "path": "knowledge/platforms/codepen.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "connpass",
+      "path": "knowledge/platforms/connpass.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "ja",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "cosmos",
+      "path": "knowledge/platforms/cosmos.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "ja",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "csdn",
+      "path": "knowledge/platforms/csdn.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "zh",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "css-tricks",
+      "path": "knowledge/platforms/css-tricks.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "daily-dev",
+      "path": "knowledge/platforms/daily-dev.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "dev-community",
+      "path": "knowledge/platforms/dev-community.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "developpez-com",
+      "path": "knowledge/platforms/developpez-com.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "fr",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "devfest-mena",
+      "path": "knowledge/platforms/devfest-mena.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "ar",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "devpost",
+      "path": "knowledge/platforms/devpost.md",
+      "recommended_adapter": "adapter-launch",
+      "primary_language": "en",
+      "categories": [
+        "launch"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "dribbble",
+      "path": "knowledge/platforms/dribbble.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "designers"
+    },
+    {
+      "slug": "eu-startups",
+      "path": "knowledge/platforms/eu-startups.md",
+      "recommended_adapter": "adapter-launch",
+      "primary_language": "en",
+      "categories": [
+        "launch"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "findy",
+      "path": "knowledge/platforms/findy.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "ja",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "fishburners",
+      "path": "knowledge/platforms/fishburners.md",
+      "recommended_adapter": "adapter-launch",
+      "primary_language": "en",
+      "categories": [
+        "launch"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "forem",
+      "path": "knowledge/platforms/forem.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "fr",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "forg",
+      "path": "knowledge/platforms/forg.md",
+      "recommended_adapter": "adapter-launch",
+      "primary_language": "en",
+      "categories": [
+        "launch"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "freecodecamp",
+      "path": "knowledge/platforms/freecodecamp.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "frontend-horse",
+      "path": "knowledge/platforms/frontend-horse.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "github-discussions",
+      "path": "knowledge/platforms/github-discussions.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "glitch",
+      "path": "knowledge/platforms/glitch.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "hachyderm",
+      "path": "knowledge/platforms/hachyderm.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "hacker-news",
+      "path": "knowledge/platforms/hacker-news.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "hashnode-africa",
+      "path": "knowledge/platforms/hashnode-africa.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "hashnode",
+      "path": "knowledge/platforms/hashnode.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "hatena-blog",
+      "path": "knowledge/platforms/hatena-blog.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "ja",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "heise-developer",
+      "path": "knowledge/platforms/heise-developer.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "de",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "hive-index",
+      "path": "knowledge/platforms/hive-index.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "es",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "hugging-face",
+      "path": "knowledge/platforms/hugging-face.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "indie-hackers",
+      "path": "knowledge/platforms/indie-hackers.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "indie-logs",
+      "path": "knowledge/platforms/indie-logs.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "inflearn",
+      "path": "knowledge/platforms/inflearn.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "ko",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "layers",
+      "path": "knowledge/platforms/layers.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "designers"
+    },
+    {
+      "slug": "le-wagon",
+      "path": "knowledge/platforms/le-wagon.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "fr",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "leetcode-discuss",
+      "path": "knowledge/platforms/leetcode-discuss.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "lobsters",
+      "path": "knowledge/platforms/lobsters.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "makerlog",
+      "path": "knowledge/platforms/makerlog.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "malt",
+      "path": "knowledge/platforms/malt.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "fr",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "medium",
+      "path": "knowledge/platforms/medium.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "menadevs",
+      "path": "knowledge/platforms/menadevs.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "ar",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "midudev",
+      "path": "knowledge/platforms/midudev.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "es",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "misk-hub",
+      "path": "knowledge/platforms/misk-hub.md",
+      "recommended_adapter": "adapter-launch",
+      "primary_language": "ar",
+      "categories": [
+        "launch"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "note",
+      "path": "knowledge/platforms/note.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "ja",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "observable",
+      "path": "knowledge/platforms/observable.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "designers"
+    },
+    {
+      "slug": "okky",
+      "path": "knowledge/platforms/okky.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "ko",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "openrouter",
+      "path": "knowledge/platforms/openrouter.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "papers-with-code",
+      "path": "knowledge/platforms/papers-with-code.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "peerlist",
+      "path": "knowledge/platforms/peerlist.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "platzi",
+      "path": "knowledge/platforms/platzi.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "es",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "product-hunt",
+      "path": "knowledge/platforms/product-hunt.md",
+      "recommended_adapter": "adapter-launch",
+      "primary_language": "en",
+      "categories": [
+        "launch"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "qiita",
+      "path": "knowledge/platforms/qiita.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "ja",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "read-cv",
+      "path": "knowledge/platforms/read-cv.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "reddit",
+      "path": "knowledge/platforms/reddit.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "general"
+    },
+    {
+      "slug": "replicate",
+      "path": "knowledge/platforms/replicate.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "replit",
+      "path": "knowledge/platforms/replit.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "rocketseat",
+      "path": "knowledge/platforms/rocketseat.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "pt",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "sidebar",
+      "path": "knowledge/platforms/sidebar.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "sifted",
+      "path": "knowledge/platforms/sifted.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "smashing-magazine",
+      "path": "knowledge/platforms/smashing-magazine.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "speaker-deck",
+      "path": "knowledge/platforms/speaker-deck.md",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
+      "categories": [
+        "showcase"
+      ],
+      "target_audience": "designers"
+    },
+    {
+      "slug": "stack-overflow-en-español",
+      "path": "knowledge/platforms/stack-overflow-en-español.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "es",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "stack-overflow",
+      "path": "knowledge/platforms/stack-overflow.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "en",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "stackshare",
+      "path": "knowledge/platforms/stackshare.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "t3n",
+      "path": "knowledge/platforms/t3n.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "de",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "tabnews",
+      "path": "knowledge/platforms/tabnews.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "pt",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "techcabal",
+      "path": "knowledge/platforms/techcabal.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "teratail",
+      "path": "knowledge/platforms/teratail.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "ja",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "v2ex",
+      "path": "knowledge/platforms/v2ex.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "zh",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "velog",
+      "path": "knowledge/platforms/velog.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "ko",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "wanted",
+      "path": "knowledge/platforms/wanted.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "ko",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "x",
+      "path": "knowledge/platforms/x.md",
+      "recommended_adapter": "adapter-social-shortform",
+      "primary_language": "en",
+      "categories": [
+        "social-shortform"
+      ],
+      "target_audience": "general"
+    },
+    {
+      "slug": "xda-developers",
+      "path": "knowledge/platforms/xda-developers.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "xing",
+      "path": "knowledge/platforms/xing.md",
+      "recommended_adapter": "adapter-community-discussion",
+      "primary_language": "de",
+      "categories": [
+        "community-discussion"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "zenn",
+      "path": "knowledge/platforms/zenn.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "ja",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "zindi",
+      "path": "knowledge/platforms/zindi.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "en",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "startups"
+    },
+    {
+      "slug": "少数派",
+      "path": "knowledge/platforms/少数派.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "zh",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "general"
+    },
+    {
+      "slug": "开源中国",
+      "path": "knowledge/platforms/开源中国.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "zh",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "掘金",
+      "path": "knowledge/platforms/掘金.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "zh",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "developers"
+    },
+    {
+      "slug": "知乎",
+      "path": "knowledge/platforms/知乎.md",
+      "recommended_adapter": "adapter-technical-blog",
+      "primary_language": "zh",
+      "categories": [
+        "technical-blog"
+      ],
+      "target_audience": "general"
+    }
+  ]
+}

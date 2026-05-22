@@ -1,0 +1,17 @@
+{
+  "name": "Example Vision Demo",
+  "summary": "A browser demo that explains UI screenshots and suggests accessibility fixes.",
+  "audience": ["frontend developers", "design system teams", "accessibility reviewers"],
+  "status": "beta",
+  "project_type": "AI demo",
+  "technical_stack": ["TypeScript", "React", "Vision model"],
+  "differentiators": ["Runs entirely from pasted screenshots", "Produces actionable WCAG notes"],
+  "evidence": {
+    "screenshots": ["demo-home.png", "analysis-result.png"],
+    "demo_notes": ["Demo accepts PNG screenshots and returns accessibility observations"]
+  },
+  "links": {
+    "website": "https://example.com",
+    "demo": "https://example.com/demo"
+  }
+}

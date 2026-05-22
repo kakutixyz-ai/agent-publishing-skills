@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Platform Draft",
+  "type": "object",
+  "required": ["platform", "title", "body", "status"],
+  "properties": {
+    "platform": {"type": "string"},
+    "title": {"type": "string"},
+    "subtitle": {"type": "string"},
+    "body": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "assets": {"type": "array", "items": {"type": "string"}},
+    "first_comment": {"type": "string"},
+    "metadata": {"type": "object", "additionalProperties": true},
+    "status": {
+      "type": "string",
+      "enum": ["draft", "needs_review", "approved_for_manual_publish"]
+    }
+  },
+  "additionalProperties": true
+}
