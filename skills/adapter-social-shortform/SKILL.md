@@ -19,12 +19,16 @@ Use this adapter for X, Mastodon-like communities, build-in-public logs, and sho
 
 ## Process
 
-1. Lead with one concrete hook.
-2. Keep each post short and plain text unless the platform supports rich formatting.
-3. Use a thread only when the content needs multiple steps.
-4. Include visible proof: screenshot, GIF, demo, metric, or code snippet.
-5. Do not over-tag accounts or ask for engagement.
-6. End with a specific next step or feedback request.
+1. Extract platform constraints before writing: language, character or post length, thread rules, tone, hashtag/account norms, media expectations, link handling, and banned engagement patterns.
+2. The platform profile overrides this generic adapter. If a platform expects poetic captions, factual directory blurbs, or professional status updates, use that style instead of a generic social hook.
+3. Lead with one concrete hook that fits the platform tone. Do not use hype, outrage, or clickbait unless the platform profile explicitly supports a sharper opinionated style.
+4. Keep each post within the platform's stated character or sentence limit. When no exact limit is given, prefer compact posts with short paragraphs.
+5. Use a thread only when the platform profile supports threads and the content genuinely needs multiple steps.
+6. Include visible proof when available and appropriate: screenshot, GIF, demo, metric, or code snippet. Do not invent proof.
+7. Follow platform-specific plain text, Markdown, emoji, hashtag, and tagging rules.
+8. Do not over-tag accounts, ask for votes, or ask for engagement.
+9. End with the platform-appropriate next step: link, feedback request, update note, or no CTA if the platform discourages promotion.
+10. Put a short `metadata.platform_constraints_applied` checklist in the output covering language, length, tone, structure, and formatting.
 
 ## Output
 

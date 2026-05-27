@@ -19,12 +19,16 @@ Use this adapter for Product Hunt, Beta-style launch communities, startup direct
 
 ## Process
 
-1. Write a short value proposition for a specific user.
-2. Explain what is available today.
-3. Highlight differentiators without inflated claims.
-4. Include required assets such as logo, screenshots, demo video, website, pricing, or repository.
-5. Prepare a maker/founder note when the platform has comment-driven launch norms.
-6. Ask for feedback, not votes.
+1. Extract platform constraints before writing: language, field lengths, launch format, tone, required assets, comment norms, CTA rules, and banned vote-seeking behavior.
+2. Use the platform's expected launch shape. Product discovery pages need compact product positioning; startup publications need news-style paragraphs; maker communities need transparent build context.
+3. Write a short value proposition for a specific user using the platform's preferred language and register.
+4. Explain what is available today. Do not imply availability, pricing, traction, integrations, or funding unless the brief provides it.
+5. Highlight differentiators without inflated claims.
+6. Include required assets such as logo, screenshots, demo video, website, pricing, or repository only when provided. If required assets are missing, mark the draft `needs_review` and list placeholders.
+7. Prepare a maker/founder note when the platform has comment-driven launch norms.
+8. Ask for feedback, not votes.
+9. Keep the copy as short or long as the profile expects. Do not expand a product card into an essay, and do not compress an editorial launch story into a tagline.
+10. Put a short `metadata.platform_constraints_applied` checklist in the output covering language, length, tone, structure, and formatting.
 
 ## Output
 

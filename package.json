@@ -38,7 +38,8 @@
   },
   "scripts": {
     "test": "jest",
-    "verify-drafts": "node bin/verify-drafts.js"
+    "verify-drafts": "node bin/verify-drafts.js",
+    "generate-platform-writers": "node bin/generate-platform-writers.js"
   },
   "devDependencies": {
     "ajv": "^8.12.0",

@@ -19,11 +19,19 @@ Use this adapter for Behance, Dribbble, CodePen, Observable, Replit, Glitch, Are
 
 ## Process
 
-1. Lead with the artifact: screenshot, prototype, demo, code playground, or case study.
-2. Keep the written copy short and focused on what the viewer can inspect.
-3. Explain the design, implementation, or technical decision behind the work.
-4. Include toolchain, constraints, and credits when relevant.
-5. Avoid long promotional essays unless the platform expects case studies.
+1. Extract platform constraints before writing: language, caption length, visual asset requirements, case-study depth, tone, tags, credits, and formatting limitations.
+2. Lead with the artifact: screenshot, prototype, demo, code playground, or case study.
+3. Match the platform's visual-writing mode:
+   - gallery and portfolio platforms: short captions, strong asset sequencing, credits, and toolchain;
+   - code playgrounds: concise description, dependencies, and what to inspect;
+   - case-study platforms: problem, process, decisions, and outcome;
+   - curation platforms: minimal or poetic captions without marketing copy.
+4. Keep the written copy short unless the platform profile explicitly expects a case study.
+5. Explain the design, implementation, or technical decision behind the work only to the depth the platform expects.
+6. Include toolchain, constraints, and credits when relevant and factual.
+7. Avoid long promotional essays, unsupported claims, and content types listed as poor fit.
+8. Follow platform-specific Markdown, rich-text, image count, embed, and tag rules.
+9. Put a short `metadata.platform_constraints_applied` checklist in the output covering language, length, tone, structure, and formatting.
 
 ## Output
 

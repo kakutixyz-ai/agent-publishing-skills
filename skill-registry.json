@@ -105,6 +105,1371 @@
         "knowledge/rules/disclosure.md",
         "knowledge/rules/factual-accuracy.md"
       ]
+    },
+    {
+      "name": "writer-platform-a-list-apart",
+      "path": "skills/platform-writers/a-list-apart/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/a-list-apart.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/a-list-apart/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-alura",
+      "path": "skills/platform-writers/alura/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/alura.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/alura/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-andela",
+      "path": "skills/platform-writers/andela/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/andela.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/andela/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-arab-hardware",
+      "path": "skills/platform-writers/arab-hardware/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/arab-hardware.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/arab-hardware/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-arena",
+      "path": "skills/platform-writers/arena/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/arena.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/arena/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-atlassian-community",
+      "path": "skills/platform-writers/atlassian-community/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/atlassian-community.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/atlassian-community/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-awesome-lists",
+      "path": "skills/platform-writers/awesome-lists/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/awesome-lists.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/awesome-lists/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-awwwards",
+      "path": "skills/platform-writers/awwwards/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/awwwards.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/awwwards/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-behance",
+      "path": "skills/platform-writers/behance/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/behance.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/behance/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-brunch",
+      "path": "skills/platform-writers/brunch/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/brunch.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/brunch/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-buildhop",
+      "path": "skills/platform-writers/buildhop/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/buildhop.md",
+        "skills/adapter-launch/SKILL.md",
+        "templates/platforms/buildhop/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-canva-developers",
+      "path": "skills/platform-writers/canva-developers/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/canva-developers.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/canva-developers/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-chaos-computer-club",
+      "path": "skills/platform-writers/chaos-computer-club/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/chaos-computer-club.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/chaos-computer-club/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-codepen",
+      "path": "skills/platform-writers/codepen/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/codepen.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/codepen/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-connpass",
+      "path": "skills/platform-writers/connpass/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/connpass.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/connpass/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-cosmos",
+      "path": "skills/platform-writers/cosmos/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/cosmos.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/cosmos/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-csdn",
+      "path": "skills/platform-writers/csdn/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/csdn.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/csdn/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-css-tricks",
+      "path": "skills/platform-writers/css-tricks/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/css-tricks.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/css-tricks/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-daily-dev",
+      "path": "skills/platform-writers/daily-dev/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/daily-dev.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/daily-dev/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-dev-community",
+      "path": "skills/platform-writers/dev-community/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/dev-community.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/dev-community/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-developpez-com",
+      "path": "skills/platform-writers/developpez-com/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/developpez-com.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/developpez-com/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-devfest-mena",
+      "path": "skills/platform-writers/devfest-mena/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/devfest-mena.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/devfest-mena/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-devpost",
+      "path": "skills/platform-writers/devpost/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/devpost.md",
+        "skills/adapter-launch/SKILL.md",
+        "templates/platforms/devpost/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-dribbble",
+      "path": "skills/platform-writers/dribbble/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/dribbble.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/dribbble/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-eu-startups",
+      "path": "skills/platform-writers/eu-startups/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/eu-startups.md",
+        "skills/adapter-launch/SKILL.md",
+        "templates/platforms/eu-startups/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-findy",
+      "path": "skills/platform-writers/findy/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/findy.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/findy/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-fishburners",
+      "path": "skills/platform-writers/fishburners/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/fishburners.md",
+        "skills/adapter-launch/SKILL.md",
+        "templates/platforms/fishburners/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-forem",
+      "path": "skills/platform-writers/forem/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/forem.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/forem/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-forg",
+      "path": "skills/platform-writers/forg/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/forg.md",
+        "skills/adapter-launch/SKILL.md",
+        "templates/platforms/forg/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-freecodecamp",
+      "path": "skills/platform-writers/freecodecamp/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/freecodecamp.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/freecodecamp/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-frontend-horse",
+      "path": "skills/platform-writers/frontend-horse/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/frontend-horse.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/frontend-horse/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-github-discussions",
+      "path": "skills/platform-writers/github-discussions/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/github-discussions.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/github-discussions/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-glitch",
+      "path": "skills/platform-writers/glitch/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/glitch.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/glitch/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-hachyderm",
+      "path": "skills/platform-writers/hachyderm/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/hachyderm.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/hachyderm/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-hacker-news",
+      "path": "skills/platform-writers/hacker-news/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/hacker-news.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/hacker-news/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-hashnode-africa",
+      "path": "skills/platform-writers/hashnode-africa/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/hashnode-africa.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/hashnode-africa/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-hashnode",
+      "path": "skills/platform-writers/hashnode/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/hashnode.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/hashnode/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-hatena-blog",
+      "path": "skills/platform-writers/hatena-blog/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/hatena-blog.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/hatena-blog/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-heise-developer",
+      "path": "skills/platform-writers/heise-developer/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/heise-developer.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/heise-developer/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-hive-index",
+      "path": "skills/platform-writers/hive-index/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/hive-index.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/hive-index/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-hugging-face",
+      "path": "skills/platform-writers/hugging-face/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/hugging-face.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/hugging-face/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-indie-hackers",
+      "path": "skills/platform-writers/indie-hackers/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/indie-hackers.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/indie-hackers/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-indie-logs",
+      "path": "skills/platform-writers/indie-logs/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/indie-logs.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/indie-logs/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-inflearn",
+      "path": "skills/platform-writers/inflearn/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/inflearn.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/inflearn/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-layers",
+      "path": "skills/platform-writers/layers/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/layers.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/layers/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-le-wagon",
+      "path": "skills/platform-writers/le-wagon/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/le-wagon.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/le-wagon/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-leetcode-discuss",
+      "path": "skills/platform-writers/leetcode-discuss/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/leetcode-discuss.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/leetcode-discuss/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-lobsters",
+      "path": "skills/platform-writers/lobsters/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/lobsters.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/lobsters/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-makerlog",
+      "path": "skills/platform-writers/makerlog/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/makerlog.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/makerlog/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-malt",
+      "path": "skills/platform-writers/malt/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/malt.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/malt/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-medium",
+      "path": "skills/platform-writers/medium/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/medium.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/medium/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-menadevs",
+      "path": "skills/platform-writers/menadevs/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/menadevs.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/menadevs/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-midudev",
+      "path": "skills/platform-writers/midudev/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/midudev.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/midudev/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-misk-hub",
+      "path": "skills/platform-writers/misk-hub/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/misk-hub.md",
+        "skills/adapter-launch/SKILL.md",
+        "templates/platforms/misk-hub/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-note",
+      "path": "skills/platform-writers/note/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/note.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/note/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-observable",
+      "path": "skills/platform-writers/observable/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/observable.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/observable/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-okky",
+      "path": "skills/platform-writers/okky/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/okky.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/okky/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-openrouter",
+      "path": "skills/platform-writers/openrouter/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/openrouter.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/openrouter/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-papers-with-code",
+      "path": "skills/platform-writers/papers-with-code/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/papers-with-code.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/papers-with-code/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-peerlist",
+      "path": "skills/platform-writers/peerlist/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/peerlist.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/peerlist/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-platzi",
+      "path": "skills/platform-writers/platzi/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/platzi.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/platzi/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-product-hunt",
+      "path": "skills/platform-writers/product-hunt/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/product-hunt.md",
+        "skills/adapter-launch/SKILL.md",
+        "templates/platforms/product-hunt/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-qiita",
+      "path": "skills/platform-writers/qiita/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/qiita.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/qiita/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-read-cv",
+      "path": "skills/platform-writers/read-cv/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/read-cv.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/read-cv/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-reddit",
+      "path": "skills/platform-writers/reddit/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/reddit.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/reddit/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-replicate",
+      "path": "skills/platform-writers/replicate/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/replicate.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/replicate/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-replit",
+      "path": "skills/platform-writers/replit/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/replit.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/replit/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-rocketseat",
+      "path": "skills/platform-writers/rocketseat/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/rocketseat.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/rocketseat/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-sidebar",
+      "path": "skills/platform-writers/sidebar/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/sidebar.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/sidebar/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-sifted",
+      "path": "skills/platform-writers/sifted/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/sifted.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/sifted/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-smashing-magazine",
+      "path": "skills/platform-writers/smashing-magazine/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/smashing-magazine.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/smashing-magazine/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-speaker-deck",
+      "path": "skills/platform-writers/speaker-deck/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/speaker-deck.md",
+        "skills/adapter-showcase/SKILL.md",
+        "templates/platforms/speaker-deck/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-stack-overflow-en-español",
+      "path": "skills/platform-writers/stack-overflow-en-español/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/stack-overflow-en-español.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/stack-overflow-en-español/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-stack-overflow",
+      "path": "skills/platform-writers/stack-overflow/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/stack-overflow.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/stack-overflow/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-stackshare",
+      "path": "skills/platform-writers/stackshare/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/stackshare.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/stackshare/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-t3n",
+      "path": "skills/platform-writers/t3n/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/t3n.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/t3n/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-tabnews",
+      "path": "skills/platform-writers/tabnews/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/tabnews.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/tabnews/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-techcabal",
+      "path": "skills/platform-writers/techcabal/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/techcabal.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/techcabal/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-teratail",
+      "path": "skills/platform-writers/teratail/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/teratail.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/teratail/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-v2ex",
+      "path": "skills/platform-writers/v2ex/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/v2ex.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/v2ex/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-velog",
+      "path": "skills/platform-writers/velog/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/velog.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/velog/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-wanted",
+      "path": "skills/platform-writers/wanted/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/wanted.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/wanted/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-x",
+      "path": "skills/platform-writers/x/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/x.md",
+        "skills/adapter-social-shortform/SKILL.md",
+        "templates/platforms/x/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-xda-developers",
+      "path": "skills/platform-writers/xda-developers/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/xda-developers.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/xda-developers/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-xing",
+      "path": "skills/platform-writers/xing/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/xing.md",
+        "skills/adapter-community-discussion/SKILL.md",
+        "templates/platforms/xing/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-zenn",
+      "path": "skills/platform-writers/zenn/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/zenn.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/zenn/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-zindi",
+      "path": "skills/platform-writers/zindi/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/zindi.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/zindi/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-少数派",
+      "path": "skills/platform-writers/少数派/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/少数派.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/少数派/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-开源中国",
+      "path": "skills/platform-writers/开源中国/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/开源中国.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/开源中国/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-掘金",
+      "path": "skills/platform-writers/掘金/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/掘金.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/掘金/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
+    },
+    {
+      "name": "writer-platform-知乎",
+      "path": "skills/platform-writers/知乎/SKILL.md",
+      "input_schema": "schemas/project-brief.schema.json",
+      "output_schema": "schemas/platform-draft.schema.json",
+      "knowledge": [
+        "knowledge/platforms/知乎.md",
+        "skills/adapter-technical-blog/SKILL.md",
+        "templates/platforms/知乎/",
+        "knowledge/rules/anti-spam.md",
+        "knowledge/rules/no-auto-publish.md",
+        "knowledge/rules/disclosure.md",
+        "knowledge/rules/factual-accuracy.md"
+      ]
     }
   ],
   "platform_knowledge": [
@@ -261,12 +1626,12 @@
     {
       "slug": "cosmos",
       "path": "knowledge/platforms/cosmos.md",
-      "recommended_adapter": "adapter-community-discussion",
-      "primary_language": "ja",
+      "recommended_adapter": "adapter-showcase",
+      "primary_language": "en",
       "categories": [
-        "community-discussion"
+        "showcase"
       ],
-      "target_audience": "developers"
+      "target_audience": "designers"
     },
     {
       "slug": "csdn",
@@ -622,7 +1987,7 @@
       "slug": "menadevs",
       "path": "knowledge/platforms/menadevs.md",
       "recommended_adapter": "adapter-technical-blog",
-      "primary_language": "ar",
+      "primary_language": "en",
       "categories": [
         "technical-blog"
       ],

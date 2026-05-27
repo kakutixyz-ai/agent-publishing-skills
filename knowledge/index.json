@@ -592,11 +592,11 @@
     ],
     "tone": "One sentence that captures the vibe of Cosmos: A quiet, tasteful gallery where every image and link is chosen with intention, reflecting a personal aesthetic of curated minimalism.",
     "source": "legacy-skills/cosmos/SKILL.md",
-    "primary_language": "ja",
+    "primary_language": "en",
     "categories": [
-      "community-discussion"
+      "showcase"
     ],
-    "target_audience": "developers"
+    "target_audience": "designers"
   },
   {
     "slug": "csdn",
@@ -1910,7 +1910,7 @@
     ],
     "tone": "The vibe is: professional, supportive, and pragmatic — like a focused Slack channel for Arab developers who value substance over hype.",
     "source": "legacy-skills/menadevs/SKILL.md",
-    "primary_language": "ar",
+    "primary_language": "en",
     "categories": [
       "technical-blog"
     ],
