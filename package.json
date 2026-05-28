@@ -8,7 +8,7 @@
     "url": "git+https://github.com/kakutixyz-ai/agent-publishing-skills.git"
   },
   "bin": {
-    "agent-publishing-skills": "./bin/agent-publishing-skills.js"
+    "agent-publishing-skills": "bin/agent-publishing-skills.js"
   },
   "files": [
     "bin/",
