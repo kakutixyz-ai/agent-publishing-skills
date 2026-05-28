@@ -12,7 +12,9 @@ Use this skill when the target platform is `掘金` / 掘金 (juejin.cn). This i
 
 - `knowledge/platforms/掘金.md`
 - `skills/adapter-technical-blog/SKILL.md`
-- `templates/platforms/掘金/` when a platform template exists
+- `knowledge/styles/technical-blog.md`
+- `templates/base/article.md`
+- `templates/platforms/掘金/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

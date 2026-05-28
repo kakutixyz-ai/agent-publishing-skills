@@ -15,7 +15,44 @@ const platforms = registry.platform_knowledge || [];
 
 console.log(`Found ${platforms.length} platforms in registry.`);
 
-// Define base templates contents
+const PLATFORM_OVERRIDES = new Set([
+  'dev-community',
+  'hacker-news',
+  'medium',
+  'product-hunt',
+  'qiita',
+  'reddit',
+  'zenn',
+  '掘金',
+  '知乎'
+]);
+
+function templateTypeForAdapter(adapter) {
+  switch (adapter) {
+    case 'adapter-community-discussion':
+    case 'adapter-hn':
+    case 'adapter-reddit':
+      return 'discussion';
+    case 'adapter-launch':
+    case 'adapter-producthunt':
+      return 'launch';
+    case 'adapter-showcase':
+      return 'showcase';
+    case 'adapter-social-shortform':
+      return 'shortform';
+    case 'adapter-technical-blog':
+    case 'adapter-devto':
+    case 'adapter-zenn':
+    case 'adapter-qiita':
+    default:
+      return 'article';
+  }
+}
+
+function templateFileName(templateType) {
+  return `${templateType}.md`;
+}
+
 const templatesMap = {
   article: `# {{title}}
 
@@ -117,64 +154,18 @@ const templatesMap = {
 
 let count = 0;
 
+fs.rmSync(templatesDir, { recursive: true, force: true });
+fs.mkdirSync(templatesDir, { recursive: true });
+
 for (const platform of platforms) {
   const { slug, recommended_adapter } = platform;
-  const platDir = path.join(templatesDir, slug);
-
-  if (!fs.existsSync(platDir)) {
-    fs.mkdirSync(platDir, { recursive: true });
-  }
-
-  let templateType = '';
-  let templateFileName = '';
+  const templateType = templateTypeForAdapter(recommended_adapter);
   let frontMatter = '';
 
-  // Determine template file name and default front matter
-  switch (recommended_adapter) {
-    case 'adapter-technical-blog':
-    case 'adapter-devto':
-    case 'adapter-zenn':
-    case 'adapter-qiita':
-      templateType = 'article';
-      templateFileName = 'article.md';
-      frontMatter = `---\ntitle: "Article Title"\ntags: ["Tag1", "Tag2"]\n---\n`;
-      break;
-
-    case 'adapter-community-discussion':
-    case 'adapter-hn':
-    case 'adapter-reddit':
-      templateType = 'discussion';
-      templateFileName = 'discussion.md';
-      frontMatter = `---\ntitle: "Discussion Title"\ntags: ["Tag1", "Tag2"]\n---\n`;
-      break;
-
-    case 'adapter-launch':
-    case 'adapter-producthunt':
-      templateType = 'launch';
-      templateFileName = 'launch.md';
-      frontMatter = `---\nname: "Project Name"\ntagline: "A 60-character tagline of your project"\nlink: "https://example.com"\n---\n`;
-      break;
-
-    case 'adapter-showcase':
-      templateType = 'showcase';
-      templateFileName = 'showcase.md';
-      frontMatter = `---\ntitle: "Showcase Title"\nlink: "https://example.com"\n---\n`;
-      break;
-
-    case 'adapter-social-shortform':
-      templateType = 'shortform';
-      templateFileName = 'shortform.md';
-      frontMatter = `---\ntags: ["Tag1", "Tag2"]\n---\n`;
-      break;
-
-    default:
-      // Fallback
-      templateType = 'article';
-      templateFileName = 'article.md';
-      frontMatter = `---\ntitle: "Article Title"\ntags: ["Tag1", "Tag2"]\n---\n`;
+  if (!PLATFORM_OVERRIDES.has(slug)) {
+    continue;
   }
 
-  // Customize front matter for specific platforms
   if (slug === 'zenn') {
     frontMatter = `---
 title: "記事のタイトル"
@@ -258,10 +249,12 @@ tags: ["程序员", "软件开发", "开源项目"]
   }
 
   const finalContent = frontMatter + templatesMap[templateType];
-  const filePath = path.join(platDir, templateFileName);
+  const platDir = path.join(templatesDir, slug);
+  fs.mkdirSync(platDir, { recursive: true });
+  const filePath = path.join(platDir, templateFileName(templateType));
 
   fs.writeFileSync(filePath, finalContent, 'utf8');
   count++;
 }
 
-console.log(`Generated ${count} templates successfully under templates/platforms/`);
+console.log(`Generated ${count} platform override templates under templates/platforms/`);

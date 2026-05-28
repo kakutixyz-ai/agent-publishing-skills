@@ -12,7 +12,9 @@ Use this skill when the target platform is `devpost` / Devpost — `https://devp
 
 - `knowledge/platforms/devpost.md`
 - `skills/adapter-launch/SKILL.md`
-- `templates/platforms/devpost/` when a platform template exists
+- `knowledge/styles/launch-post.md`
+- `templates/base/launch.md`
+- `templates/platforms/devpost/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

@@ -12,7 +12,9 @@ Use this skill when the target platform is `forg` / Forg — Build in Public Pla
 
 - `knowledge/platforms/forg.md`
 - `skills/adapter-launch/SKILL.md`
-- `templates/platforms/forg/` when a platform template exists
+- `knowledge/styles/launch-post.md`
+- `templates/base/launch.md`
+- `templates/platforms/forg/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

@@ -12,7 +12,9 @@ Use this skill when the target platform is `read-cv` / Read.cv. This is the plat
 
 - `knowledge/platforms/read-cv.md`
 - `skills/adapter-community-discussion/SKILL.md`
-- `templates/platforms/read-cv/` when a platform template exists
+- `knowledge/styles/community-post.md`
+- `templates/base/discussion.md`
+- `templates/platforms/read-cv/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

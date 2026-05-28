@@ -15,6 +15,7 @@ Use this adapter for Product Hunt, Beta-style launch communities, startup direct
 
 - Project brief or base draft.
 - One platform profile from `knowledge/platforms/`.
+- `knowledge/styles/launch-post.md`.
 - Launch assets when available.
 
 ## Process

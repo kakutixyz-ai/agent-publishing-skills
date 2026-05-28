@@ -12,7 +12,9 @@ Use this skill when the target platform is `makerlog` / Makerlog. This is the pl
 
 - `knowledge/platforms/makerlog.md`
 - `skills/adapter-community-discussion/SKILL.md`
-- `templates/platforms/makerlog/` when a platform template exists
+- `knowledge/styles/community-post.md`
+- `templates/base/discussion.md`
+- `templates/platforms/makerlog/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

@@ -12,7 +12,9 @@ Use this skill when the target platform is `buildhop` / BuildHop — https://bui
 
 - `knowledge/platforms/buildhop.md`
 - `skills/adapter-launch/SKILL.md`
-- `templates/platforms/buildhop/` when a platform template exists
+- `knowledge/styles/launch-post.md`
+- `templates/base/launch.md`
+- `templates/platforms/buildhop/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

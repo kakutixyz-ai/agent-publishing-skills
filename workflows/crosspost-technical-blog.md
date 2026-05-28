@@ -6,8 +6,9 @@ Use this workflow to adapt one technical article for multiple developer publishi
 
 1. `skills/planner`
 2. `skills/writer` if no base article exists
-3. Platform adapters for selected targets
-4. `skills/reviewer`
+3. Prefer `skills/platform-writers/<target-platform>` for each selected target.
+4. Fall back to the matching generic adapter only when no dedicated platform writer exists.
+5. `skills/reviewer`
 
 ## Notes
 

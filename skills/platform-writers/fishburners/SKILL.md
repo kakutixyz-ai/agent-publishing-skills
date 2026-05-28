@@ -12,7 +12,9 @@ Use this skill when the target platform is `fishburners` / Fishburners. This is 
 
 - `knowledge/platforms/fishburners.md`
 - `skills/adapter-launch/SKILL.md`
-- `templates/platforms/fishburners/` when a platform template exists
+- `knowledge/styles/launch-post.md`
+- `templates/base/launch.md`
+- `templates/platforms/fishburners/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

@@ -12,7 +12,9 @@ Use this skill when the target platform is `layers` / Layers — https://layers.
 
 - `knowledge/platforms/layers.md`
 - `skills/adapter-showcase/SKILL.md`
-- `templates/platforms/layers/` when a platform template exists
+- `knowledge/styles/build-in-public.md`
+- `templates/base/showcase.md`
+- `templates/platforms/layers/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

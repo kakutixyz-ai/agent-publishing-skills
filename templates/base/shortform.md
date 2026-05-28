@@ -1,6 +1,3 @@
----
-tags: ["Tag1", "Tag2"]
----
 {{main_hook}}
 
 {{core_insight}}

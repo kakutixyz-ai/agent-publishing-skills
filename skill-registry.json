@@ -22,6 +22,10 @@
       "input_schema": "schemas/project-brief.schema.json",
       "output_schema": "schemas/platform-draft.schema.json",
       "knowledge": [
+        "knowledge/styles/technical-blog.md",
+        "knowledge/styles/community-post.md",
+        "knowledge/styles/launch-post.md",
+        "knowledge/styles/build-in-public.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -48,6 +52,7 @@
       "output_schema": "schemas/platform-draft.schema.json",
       "knowledge": [
         "knowledge/platforms/<target-platform>.md",
+        "knowledge/styles/technical-blog.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -61,6 +66,7 @@
       "output_schema": "schemas/platform-draft.schema.json",
       "knowledge": [
         "knowledge/platforms/<target-platform>.md",
+        "knowledge/styles/community-post.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -74,6 +80,7 @@
       "output_schema": "schemas/platform-draft.schema.json",
       "knowledge": [
         "knowledge/platforms/<target-platform>.md",
+        "knowledge/styles/launch-post.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -87,6 +94,7 @@
       "output_schema": "schemas/platform-draft.schema.json",
       "knowledge": [
         "knowledge/platforms/<target-platform>.md",
+        "knowledge/styles/build-in-public.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -100,6 +108,7 @@
       "output_schema": "schemas/platform-draft.schema.json",
       "knowledge": [
         "knowledge/platforms/<target-platform>.md",
+        "knowledge/styles/build-in-public.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -114,7 +123,8 @@
       "knowledge": [
         "knowledge/platforms/a-list-apart.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/a-list-apart/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -129,7 +139,8 @@
       "knowledge": [
         "knowledge/platforms/alura.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/alura/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -144,7 +155,8 @@
       "knowledge": [
         "knowledge/platforms/andela.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/andela/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -159,7 +171,8 @@
       "knowledge": [
         "knowledge/platforms/arab-hardware.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/arab-hardware/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -174,7 +187,8 @@
       "knowledge": [
         "knowledge/platforms/arena.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/arena/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -189,7 +203,8 @@
       "knowledge": [
         "knowledge/platforms/atlassian-community.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/atlassian-community/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -204,7 +219,8 @@
       "knowledge": [
         "knowledge/platforms/awesome-lists.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/awesome-lists/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -219,7 +235,8 @@
       "knowledge": [
         "knowledge/platforms/awwwards.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/awwwards/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -234,7 +251,8 @@
       "knowledge": [
         "knowledge/platforms/behance.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/behance/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -249,7 +267,8 @@
       "knowledge": [
         "knowledge/platforms/brunch.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/brunch/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -264,7 +283,8 @@
       "knowledge": [
         "knowledge/platforms/buildhop.md",
         "skills/adapter-launch/SKILL.md",
-        "templates/platforms/buildhop/",
+        "knowledge/styles/launch-post.md",
+        "templates/base/launch.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -279,7 +299,8 @@
       "knowledge": [
         "knowledge/platforms/canva-developers.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/canva-developers/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -294,7 +315,8 @@
       "knowledge": [
         "knowledge/platforms/chaos-computer-club.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/chaos-computer-club/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -309,7 +331,8 @@
       "knowledge": [
         "knowledge/platforms/codepen.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/codepen/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -324,7 +347,8 @@
       "knowledge": [
         "knowledge/platforms/connpass.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/connpass/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -339,7 +363,8 @@
       "knowledge": [
         "knowledge/platforms/cosmos.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/cosmos/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -354,7 +379,8 @@
       "knowledge": [
         "knowledge/platforms/csdn.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/csdn/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -369,7 +395,8 @@
       "knowledge": [
         "knowledge/platforms/css-tricks.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/css-tricks/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -384,7 +411,8 @@
       "knowledge": [
         "knowledge/platforms/daily-dev.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/daily-dev/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -399,6 +427,8 @@
       "knowledge": [
         "knowledge/platforms/dev-community.md",
         "skills/adapter-technical-blog/SKILL.md",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "templates/platforms/dev-community/",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
@@ -414,7 +444,8 @@
       "knowledge": [
         "knowledge/platforms/developpez-com.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/developpez-com/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -429,7 +460,8 @@
       "knowledge": [
         "knowledge/platforms/devfest-mena.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/devfest-mena/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -444,7 +476,8 @@
       "knowledge": [
         "knowledge/platforms/devpost.md",
         "skills/adapter-launch/SKILL.md",
-        "templates/platforms/devpost/",
+        "knowledge/styles/launch-post.md",
+        "templates/base/launch.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -459,7 +492,8 @@
       "knowledge": [
         "knowledge/platforms/dribbble.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/dribbble/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -474,7 +508,8 @@
       "knowledge": [
         "knowledge/platforms/eu-startups.md",
         "skills/adapter-launch/SKILL.md",
-        "templates/platforms/eu-startups/",
+        "knowledge/styles/launch-post.md",
+        "templates/base/launch.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -489,7 +524,8 @@
       "knowledge": [
         "knowledge/platforms/findy.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/findy/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -504,7 +540,8 @@
       "knowledge": [
         "knowledge/platforms/fishburners.md",
         "skills/adapter-launch/SKILL.md",
-        "templates/platforms/fishburners/",
+        "knowledge/styles/launch-post.md",
+        "templates/base/launch.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -519,7 +556,8 @@
       "knowledge": [
         "knowledge/platforms/forem.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/forem/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -534,7 +572,8 @@
       "knowledge": [
         "knowledge/platforms/forg.md",
         "skills/adapter-launch/SKILL.md",
-        "templates/platforms/forg/",
+        "knowledge/styles/launch-post.md",
+        "templates/base/launch.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -549,7 +588,8 @@
       "knowledge": [
         "knowledge/platforms/freecodecamp.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/freecodecamp/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -564,7 +604,8 @@
       "knowledge": [
         "knowledge/platforms/frontend-horse.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/frontend-horse/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -579,7 +620,8 @@
       "knowledge": [
         "knowledge/platforms/github-discussions.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/github-discussions/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -594,7 +636,8 @@
       "knowledge": [
         "knowledge/platforms/glitch.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/glitch/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -609,7 +652,8 @@
       "knowledge": [
         "knowledge/platforms/hachyderm.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/hachyderm/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -624,6 +668,8 @@
       "knowledge": [
         "knowledge/platforms/hacker-news.md",
         "skills/adapter-community-discussion/SKILL.md",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "templates/platforms/hacker-news/",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
@@ -639,7 +685,8 @@
       "knowledge": [
         "knowledge/platforms/hashnode-africa.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/hashnode-africa/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -654,7 +701,8 @@
       "knowledge": [
         "knowledge/platforms/hashnode.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/hashnode/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -669,7 +717,8 @@
       "knowledge": [
         "knowledge/platforms/hatena-blog.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/hatena-blog/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -684,7 +733,8 @@
       "knowledge": [
         "knowledge/platforms/heise-developer.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/heise-developer/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -699,7 +749,8 @@
       "knowledge": [
         "knowledge/platforms/hive-index.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/hive-index/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -714,7 +765,8 @@
       "knowledge": [
         "knowledge/platforms/hugging-face.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/hugging-face/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -729,7 +781,8 @@
       "knowledge": [
         "knowledge/platforms/indie-hackers.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/indie-hackers/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -744,7 +797,8 @@
       "knowledge": [
         "knowledge/platforms/indie-logs.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/indie-logs/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -759,7 +813,8 @@
       "knowledge": [
         "knowledge/platforms/inflearn.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/inflearn/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -774,7 +829,8 @@
       "knowledge": [
         "knowledge/platforms/layers.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/layers/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -789,7 +845,8 @@
       "knowledge": [
         "knowledge/platforms/le-wagon.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/le-wagon/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -804,7 +861,8 @@
       "knowledge": [
         "knowledge/platforms/leetcode-discuss.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/leetcode-discuss/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -819,7 +877,8 @@
       "knowledge": [
         "knowledge/platforms/lobsters.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/lobsters/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -834,7 +893,8 @@
       "knowledge": [
         "knowledge/platforms/makerlog.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/makerlog/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -849,7 +909,8 @@
       "knowledge": [
         "knowledge/platforms/malt.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/malt/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -864,6 +925,8 @@
       "knowledge": [
         "knowledge/platforms/medium.md",
         "skills/adapter-technical-blog/SKILL.md",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "templates/platforms/medium/",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
@@ -879,7 +942,8 @@
       "knowledge": [
         "knowledge/platforms/menadevs.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/menadevs/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -894,7 +958,8 @@
       "knowledge": [
         "knowledge/platforms/midudev.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/midudev/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -909,7 +974,8 @@
       "knowledge": [
         "knowledge/platforms/misk-hub.md",
         "skills/adapter-launch/SKILL.md",
-        "templates/platforms/misk-hub/",
+        "knowledge/styles/launch-post.md",
+        "templates/base/launch.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -924,7 +990,8 @@
       "knowledge": [
         "knowledge/platforms/note.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/note/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -939,7 +1006,8 @@
       "knowledge": [
         "knowledge/platforms/observable.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/observable/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -954,7 +1022,8 @@
       "knowledge": [
         "knowledge/platforms/okky.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/okky/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -969,7 +1038,8 @@
       "knowledge": [
         "knowledge/platforms/openrouter.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/openrouter/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -984,7 +1054,8 @@
       "knowledge": [
         "knowledge/platforms/papers-with-code.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/papers-with-code/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -999,7 +1070,8 @@
       "knowledge": [
         "knowledge/platforms/peerlist.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/peerlist/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1014,7 +1086,8 @@
       "knowledge": [
         "knowledge/platforms/platzi.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/platzi/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1029,6 +1102,8 @@
       "knowledge": [
         "knowledge/platforms/product-hunt.md",
         "skills/adapter-launch/SKILL.md",
+        "knowledge/styles/launch-post.md",
+        "templates/base/launch.md",
         "templates/platforms/product-hunt/",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
@@ -1044,6 +1119,8 @@
       "knowledge": [
         "knowledge/platforms/qiita.md",
         "skills/adapter-technical-blog/SKILL.md",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "templates/platforms/qiita/",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
@@ -1059,7 +1136,8 @@
       "knowledge": [
         "knowledge/platforms/read-cv.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/read-cv/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1074,6 +1152,8 @@
       "knowledge": [
         "knowledge/platforms/reddit.md",
         "skills/adapter-community-discussion/SKILL.md",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "templates/platforms/reddit/",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
@@ -1089,7 +1169,8 @@
       "knowledge": [
         "knowledge/platforms/replicate.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/replicate/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1104,7 +1185,8 @@
       "knowledge": [
         "knowledge/platforms/replit.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/replit/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1119,7 +1201,8 @@
       "knowledge": [
         "knowledge/platforms/rocketseat.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/rocketseat/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1134,7 +1217,8 @@
       "knowledge": [
         "knowledge/platforms/sidebar.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/sidebar/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1149,7 +1233,8 @@
       "knowledge": [
         "knowledge/platforms/sifted.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/sifted/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1164,7 +1249,8 @@
       "knowledge": [
         "knowledge/platforms/smashing-magazine.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/smashing-magazine/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1179,7 +1265,8 @@
       "knowledge": [
         "knowledge/platforms/speaker-deck.md",
         "skills/adapter-showcase/SKILL.md",
-        "templates/platforms/speaker-deck/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/showcase.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1194,7 +1281,8 @@
       "knowledge": [
         "knowledge/platforms/stack-overflow-en-español.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/stack-overflow-en-español/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1209,7 +1297,8 @@
       "knowledge": [
         "knowledge/platforms/stack-overflow.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/stack-overflow/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1224,7 +1313,8 @@
       "knowledge": [
         "knowledge/platforms/stackshare.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/stackshare/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1239,7 +1329,8 @@
       "knowledge": [
         "knowledge/platforms/t3n.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/t3n/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1254,7 +1345,8 @@
       "knowledge": [
         "knowledge/platforms/tabnews.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/tabnews/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1269,7 +1361,8 @@
       "knowledge": [
         "knowledge/platforms/techcabal.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/techcabal/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1284,7 +1377,8 @@
       "knowledge": [
         "knowledge/platforms/teratail.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/teratail/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1299,7 +1393,8 @@
       "knowledge": [
         "knowledge/platforms/v2ex.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/v2ex/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1314,7 +1409,8 @@
       "knowledge": [
         "knowledge/platforms/velog.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/velog/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1329,7 +1425,8 @@
       "knowledge": [
         "knowledge/platforms/wanted.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/wanted/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1344,7 +1441,8 @@
       "knowledge": [
         "knowledge/platforms/x.md",
         "skills/adapter-social-shortform/SKILL.md",
-        "templates/platforms/x/",
+        "knowledge/styles/build-in-public.md",
+        "templates/base/shortform.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1359,7 +1457,8 @@
       "knowledge": [
         "knowledge/platforms/xda-developers.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/xda-developers/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1374,7 +1473,8 @@
       "knowledge": [
         "knowledge/platforms/xing.md",
         "skills/adapter-community-discussion/SKILL.md",
-        "templates/platforms/xing/",
+        "knowledge/styles/community-post.md",
+        "templates/base/discussion.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1389,6 +1489,8 @@
       "knowledge": [
         "knowledge/platforms/zenn.md",
         "skills/adapter-technical-blog/SKILL.md",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "templates/platforms/zenn/",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
@@ -1404,7 +1506,8 @@
       "knowledge": [
         "knowledge/platforms/zindi.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/zindi/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1419,7 +1522,8 @@
       "knowledge": [
         "knowledge/platforms/少数派.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/少数派/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1434,7 +1538,8 @@
       "knowledge": [
         "knowledge/platforms/开源中国.md",
         "skills/adapter-technical-blog/SKILL.md",
-        "templates/platforms/开源中国/",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
         "knowledge/rules/disclosure.md",
@@ -1449,6 +1554,8 @@
       "knowledge": [
         "knowledge/platforms/掘金.md",
         "skills/adapter-technical-blog/SKILL.md",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "templates/platforms/掘金/",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",
@@ -1464,6 +1571,8 @@
       "knowledge": [
         "knowledge/platforms/知乎.md",
         "skills/adapter-technical-blog/SKILL.md",
+        "knowledge/styles/technical-blog.md",
+        "templates/base/article.md",
         "templates/platforms/知乎/",
         "knowledge/rules/anti-spam.md",
         "knowledge/rules/no-auto-publish.md",

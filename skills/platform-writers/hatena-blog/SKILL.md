@@ -12,7 +12,9 @@ Use this skill when the target platform is `hatena-blog` / Hatena Blog. This is 
 
 - `knowledge/platforms/hatena-blog.md`
 - `skills/adapter-technical-blog/SKILL.md`
-- `templates/platforms/hatena-blog/` when a platform template exists
+- `knowledge/styles/technical-blog.md`
+- `templates/base/article.md`
+- `templates/platforms/hatena-blog/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

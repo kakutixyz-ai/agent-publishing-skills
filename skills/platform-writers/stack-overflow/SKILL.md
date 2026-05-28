@@ -12,7 +12,9 @@ Use this skill when the target platform is `stack-overflow` / Stack Overflow. Th
 
 - `knowledge/platforms/stack-overflow.md`
 - `skills/adapter-community-discussion/SKILL.md`
-- `templates/platforms/stack-overflow/` when a platform template exists
+- `knowledge/styles/community-post.md`
+- `templates/base/discussion.md`
+- `templates/platforms/stack-overflow/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

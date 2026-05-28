@@ -12,7 +12,9 @@ Use this skill when the target platform is `qiita` / Qiita (キータ) — Japan
 
 - `knowledge/platforms/qiita.md`
 - `skills/adapter-technical-blog/SKILL.md`
-- `templates/platforms/qiita/` when a platform template exists
+- `knowledge/styles/technical-blog.md`
+- `templates/base/article.md`
+- `templates/platforms/qiita/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

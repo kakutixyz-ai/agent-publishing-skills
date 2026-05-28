@@ -12,7 +12,9 @@ Use this skill when the target platform is `product-hunt` / Product Hunt. This i
 
 - `knowledge/platforms/product-hunt.md`
 - `skills/adapter-launch/SKILL.md`
-- `templates/platforms/product-hunt/` when a platform template exists
+- `knowledge/styles/launch-post.md`
+- `templates/base/launch.md`
+- `templates/platforms/product-hunt/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

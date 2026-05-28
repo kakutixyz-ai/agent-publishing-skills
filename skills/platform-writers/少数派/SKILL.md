@@ -12,7 +12,9 @@ Use this skill when the target platform is `少数派` / 少数派 (sspai.com). 
 
 - `knowledge/platforms/少数派.md`
 - `skills/adapter-technical-blog/SKILL.md`
-- `templates/platforms/少数派/` when a platform template exists
+- `knowledge/styles/technical-blog.md`
+- `templates/base/article.md`
+- `templates/platforms/少数派/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

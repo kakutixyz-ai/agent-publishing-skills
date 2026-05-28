@@ -12,7 +12,9 @@ Use this skill when the target platform is `x` / X (formerly Twitter). This is t
 
 - `knowledge/platforms/x.md`
 - `skills/adapter-social-shortform/SKILL.md`
-- `templates/platforms/x/` when a platform template exists
+- `knowledge/styles/build-in-public.md`
+- `templates/base/shortform.md`
+- `templates/platforms/x/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

@@ -12,7 +12,9 @@ Use this skill when the target platform is `wanted` / Wanted. This is the platfo
 
 - `knowledge/platforms/wanted.md`
 - `skills/adapter-community-discussion/SKILL.md`
-- `templates/platforms/wanted/` when a platform template exists
+- `knowledge/styles/community-post.md`
+- `templates/base/discussion.md`
+- `templates/platforms/wanted/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

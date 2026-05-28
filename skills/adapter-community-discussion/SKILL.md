@@ -15,6 +15,7 @@ Use this adapter for platforms such as Hacker News, Reddit, Lobsters, V2EX, Stac
 
 - A base draft matching `schemas/platform-draft.schema.json`.
 - One platform profile from `knowledge/platforms/`.
+- `knowledge/styles/community-post.md`.
 
 ## Process
 

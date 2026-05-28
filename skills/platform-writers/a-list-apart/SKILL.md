@@ -12,7 +12,9 @@ Use this skill when the target platform is `a-list-apart` / A List Apart. This i
 
 - `knowledge/platforms/a-list-apart.md`
 - `skills/adapter-showcase/SKILL.md`
-- `templates/platforms/a-list-apart/` when a platform template exists
+- `knowledge/styles/build-in-public.md`
+- `templates/base/showcase.md`
+- `templates/platforms/a-list-apart/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

@@ -12,7 +12,9 @@ Use this skill when the target platform is `xda-developers` / XDA Developers. Th
 
 - `knowledge/platforms/xda-developers.md`
 - `skills/adapter-technical-blog/SKILL.md`
-- `templates/platforms/xda-developers/` when a platform template exists
+- `knowledge/styles/technical-blog.md`
+- `templates/base/article.md`
+- `templates/platforms/xda-developers/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

@@ -15,6 +15,7 @@ Use this adapter for platforms such as DEV Community, Hashnode, Medium, Zenn, Qi
 
 - A base draft matching `schemas/platform-draft.schema.json`.
 - One platform profile from `knowledge/platforms/`.
+- `knowledge/styles/technical-blog.md`.
 - Optional template from `templates/base/article.md` or `templates/base/tutorial.md`.
 
 ## Process

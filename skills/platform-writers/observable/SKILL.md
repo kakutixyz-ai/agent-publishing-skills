@@ -12,7 +12,9 @@ Use this skill when the target platform is `observable` / Observable (https://ob
 
 - `knowledge/platforms/observable.md`
 - `skills/adapter-showcase/SKILL.md`
-- `templates/platforms/observable/` when a platform template exists
+- `knowledge/styles/build-in-public.md`
+- `templates/base/showcase.md`
+- `templates/platforms/observable/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

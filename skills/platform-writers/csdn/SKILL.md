@@ -12,7 +12,9 @@ Use this skill when the target platform is `csdn` / CSDN 技术博客平台. Thi
 
 - `knowledge/platforms/csdn.md`
 - `skills/adapter-technical-blog/SKILL.md`
-- `templates/platforms/csdn/` when a platform template exists
+- `knowledge/styles/technical-blog.md`
+- `templates/base/article.md`
+- `templates/platforms/csdn/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

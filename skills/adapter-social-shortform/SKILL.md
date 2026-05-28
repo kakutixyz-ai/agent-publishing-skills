@@ -15,6 +15,7 @@ Use this adapter for X, Mastodon-like communities, build-in-public logs, and sho
 
 - Project brief or base draft.
 - Platform profile.
+- `knowledge/styles/build-in-public.md`.
 - Screenshots, clips, metrics, or links when available.
 
 ## Process

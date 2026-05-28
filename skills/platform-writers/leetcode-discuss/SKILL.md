@@ -12,7 +12,9 @@ Use this skill when the target platform is `leetcode-discuss` / LeetCode Discuss
 
 - `knowledge/platforms/leetcode-discuss.md`
 - `skills/adapter-community-discussion/SKILL.md`
-- `templates/platforms/leetcode-discuss/` when a platform template exists
+- `knowledge/styles/community-post.md`
+- `templates/base/discussion.md`
+- `templates/platforms/leetcode-discuss/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

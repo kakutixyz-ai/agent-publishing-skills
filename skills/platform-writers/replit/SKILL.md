@@ -12,7 +12,9 @@ Use this skill when the target platform is `replit` / Replit: Build and Share in
 
 - `knowledge/platforms/replit.md`
 - `skills/adapter-showcase/SKILL.md`
-- `templates/platforms/replit/` when a platform template exists
+- `knowledge/styles/build-in-public.md`
+- `templates/base/showcase.md`
+- `templates/platforms/replit/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

@@ -12,7 +12,9 @@ Use this skill when the target platform is `brunch` / Brunch (https://brunch.co.
 
 - `knowledge/platforms/brunch.md`
 - `skills/adapter-technical-blog/SKILL.md`
-- `templates/platforms/brunch/` when a platform template exists
+- `knowledge/styles/technical-blog.md`
+- `templates/base/article.md`
+- `templates/platforms/brunch/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

@@ -15,6 +15,7 @@ Use this adapter for Behance, Dribbble, CodePen, Observable, Replit, Glitch, Are
 
 - Base draft.
 - Platform profile.
+- `knowledge/styles/build-in-public.md` when the showcase is an ongoing maker update.
 - Visual or interactive assets.
 
 ## Process

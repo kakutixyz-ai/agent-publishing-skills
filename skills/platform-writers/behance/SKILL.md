@@ -12,7 +12,9 @@ Use this skill when the target platform is `behance` / Behance — https://www.b
 
 - `knowledge/platforms/behance.md`
 - `skills/adapter-showcase/SKILL.md`
-- `templates/platforms/behance/` when a platform template exists
+- `knowledge/styles/build-in-public.md`
+- `templates/base/showcase.md`
+- `templates/platforms/behance/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

@@ -6,8 +6,9 @@ Use this workflow when the goal is feedback, not launch traffic.
 
 1. `skills/planner`
 2. `skills/writer`
-3. `skills/adapter-community-discussion`
-4. `skills/reviewer`
+3. Prefer `skills/platform-writers/<target-platform>` when it exists.
+4. Fall back to `skills/adapter-community-discussion` only when no dedicated platform writer exists.
+5. `skills/reviewer`
 
 ## Drafting Principle
 

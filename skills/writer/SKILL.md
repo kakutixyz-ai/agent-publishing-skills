@@ -16,6 +16,7 @@ Use this skill after `planner` has produced a publishing plan and the user has c
 - Project brief matching `schemas/project-brief.schema.json`.
 - Selected content angle from a publishing plan.
 - Optional template from `templates/base/`.
+- Optional style guide from `knowledge/styles/` when the publishing plan already implies a content mode.
 
 ## Process
 

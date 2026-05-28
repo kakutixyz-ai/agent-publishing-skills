@@ -39,6 +39,7 @@
   "scripts": {
     "test": "jest",
     "verify-drafts": "node bin/verify-drafts.js",
+    "generate-templates": "node bin/generate-templates.js",
     "generate-platform-writers": "node bin/generate-platform-writers.js"
   },
   "devDependencies": {

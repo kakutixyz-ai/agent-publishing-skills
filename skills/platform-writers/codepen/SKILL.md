@@ -12,7 +12,9 @@ Use this skill when the target platform is `codepen` / CodePen — https://codep
 
 - `knowledge/platforms/codepen.md`
 - `skills/adapter-showcase/SKILL.md`
-- `templates/platforms/codepen/` when a platform template exists
+- `knowledge/styles/build-in-public.md`
+- `templates/base/showcase.md`
+- `templates/platforms/codepen/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

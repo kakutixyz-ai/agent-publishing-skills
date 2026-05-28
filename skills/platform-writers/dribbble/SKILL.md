@@ -12,7 +12,9 @@ Use this skill when the target platform is `dribbble` / Dribbble — https://dri
 
 - `knowledge/platforms/dribbble.md`
 - `skills/adapter-showcase/SKILL.md`
-- `templates/platforms/dribbble/` when a platform template exists
+- `knowledge/styles/build-in-public.md`
+- `templates/base/showcase.md`
+- `templates/platforms/dribbble/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

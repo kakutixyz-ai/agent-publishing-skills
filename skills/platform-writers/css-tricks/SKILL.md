@@ -12,7 +12,9 @@ Use this skill when the target platform is `css-tricks` / CSS-Tricks. This is th
 
 - `knowledge/platforms/css-tricks.md`
 - `skills/adapter-technical-blog/SKILL.md`
-- `templates/platforms/css-tricks/` when a platform template exists
+- `knowledge/styles/technical-blog.md`
+- `templates/base/article.md`
+- `templates/platforms/css-tricks/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`

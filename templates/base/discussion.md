@@ -1,7 +1,3 @@
----
-title: "Discussion Title"
-tags: ["Tag1", "Tag2"]
----
 # {{title}}
 
 ## Background

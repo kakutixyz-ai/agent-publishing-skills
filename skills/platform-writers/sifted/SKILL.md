@@ -12,7 +12,9 @@ Use this skill when the target platform is `sifted` / Sifted — https://sifted.
 
 - `knowledge/platforms/sifted.md`
 - `skills/adapter-technical-blog/SKILL.md`
-- `templates/platforms/sifted/` when a platform template exists
+- `knowledge/styles/technical-blog.md`
+- `templates/base/article.md`
+- `templates/platforms/sifted/` when a platform override template exists
 - `knowledge/rules/anti-spam.md`
 - `knowledge/rules/no-auto-publish.md`
 - `knowledge/rules/disclosure.md`
